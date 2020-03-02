@@ -6,7 +6,7 @@ You'll be working in `styles/style.css`. Good luck!!
 
 ### Here's your mockup!!
 
-- [Desktop](./mockups/desktop.jpg)
+- [Desktop](https://git.generalassemb.ly/sei-jeddah/HW_W02_D02_Flexbox/blob/master/mockup/desktop.jpg)
 
 ### Good luck! 🏔
 - [Helpful resources](http://learnlayout.com/no-layout.html)
