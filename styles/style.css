@@ -8,45 +8,72 @@
 
 header {
   /* 1 property */
+  display: flex;
+  justify-content: space-around;
 }
 
 header .logo,
-header nav {
+header > nav > ul {
   /* 1 property */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  list-style: none;
 }
 
 .container .aboutrow {
   /* 1 property */
+  display: flex;
+}
+
+
+/* hero */
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* feature */
 
 .feature {
   /* 1 property */
+  display: flex;
 }
 
 /* cta */
 
 .cta .container {
   /* 1 property */
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 /* footer */
 
 footer {
   /* 1 property */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-left {
   /* 3 properties */
+
 }
 
 .footer-left .footer-col {
   /* 1 property */
+  /* display: flex;
+  align-items: center; */
 }
 
 .footer-right {
   /* 1 property */
+  flex-direction: column;
 }
 
 /* ======+++++======++++=====+++=== */
@@ -186,12 +213,14 @@ nav ul li {
 }
 
 .feat-left {
-  background-image: url("../assets/glacier.jpg");
+  background-image: url("/assets/glacier.jpg");
   background-size: cover;
   background-position: center center;
+  width: 50%;
 }
 
 .feat-right {
+  width: 50%;
   padding: 50px;
 }
 
