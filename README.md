@@ -9,3 +9,4 @@ You'll be working in `styles/style.css`. Good luck!!
 - [Desktop](./mockups/desktop.jpg)
 
 ### Good luck! 🏔
+- [Helpful resources](http://learnlayout.com/no-layout.html)
